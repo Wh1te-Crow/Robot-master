@@ -34,13 +34,13 @@ void BP::changeColor(Toy&toy)
 
 	HANDLE hOUTPUT = GetStdHandle(STD_OUTPUT_HANDLE);
 	cout<<"Enter your color green or white: ";
-	cin>>light;
-	if (light=="green")
+	cin>>toy.color;
+	if (toy.color=="green")
 	{
 	SetConsoleTextAttribute(hOUTPUT,FOREGROUND_GREEN | FOREGROUND_INTENSITY);
 	}
 	else
 	SetConsoleTextAttribute(hOUTPUT,FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE );
-	toy.color=light;
+
 }
 

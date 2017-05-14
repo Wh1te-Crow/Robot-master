@@ -47,7 +47,7 @@ private:
 	BX x0;
 	BY y0;
 	BZ z0;
-	string light;
+
 
 
 	
