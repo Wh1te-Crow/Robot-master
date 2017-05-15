@@ -47,9 +47,6 @@ private:
 	BX x0;
 	BY y0;
 	BZ z0;
-
-
-
 	
 public:
 	void show_position(Toy&toy);
