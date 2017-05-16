@@ -9,16 +9,17 @@ using namespace std;
 
 class Button_Position
 {	
-public:
+private:
 int PX=0;
 int PY=0;
 int PZ=0;
+public:
 virtual void add_position()=0;
 virtual void sup_position()=0;
 };
 class Toy
 {
-public:
+private:
 int position[3];
 string color;
 };
